@@ -1,0 +1,28 @@
+.container{
+    width: 15em;
+    margin: 0 0.2em;
+    
+}
+.pic{
+    /* border: 2px solid red; */
+    margin-bottom: 0.7em;
+}
+.pic img{
+    width: 100%;
+    
+}
+.title{
+    color: #ccc;
+    /* border: 2px solid red; */
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.channel, .views{
+    /* border: 2px solid red; */
+    color: #ccc;
+    font-size: small;
+    margin-bottom: 0.2em;
+}
+.views span{
+    margin: 0 0.5em;
+}

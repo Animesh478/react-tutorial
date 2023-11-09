@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Video from './Components/Video'
 
-function App() {
+export default function App(){
+  let obj = {
+    title: 'React JS',
+    channel: 'Animesh-CodeX',
+    views: '110K',
+    time: '1 year ago'
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+       <Video {...obj}/>
+       <Video title='Node JS' channel='Animesh-CodeX' views='1M' time='2 years ago' />
     </div>
-  );
+   
+  )
 }
-
-export default App;
